@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project-3</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/proj3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    <script src="./js/proj3.js"></script>
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    WELCOME TO TAJ GROUP OF HOTELS
+                    <ul>
+                        <li style="color:orange">Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Blog</li>
+                        <li>Contacts</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        
+      <div class="item active">
+        <img src="./Images/2.jpg" alt="No image">
+         <div class="carousel-caption">
+             <h1>TAJ GROUP OF HOTELS</h1>
+           </div>
+      </div>
+
+      <div class="item">
+        <img src="./Images/3.jpg" alt="No image">
+          <div class="carousel-caption">
+             <h1>LAKE SIDE VIEW</h1> 
+          </div>
+      </div>
+    
+      <div class="item">
+        <img src="./Images/1.jpg" alt="No image">
+          <div class="carousel-caption">
+            <h1>INTERIOR DECOR</h1>
+          </div>
+      </div>
+
+      <div class="item">
+        <img src="./Images/4.jpg">
+          <div class="carousel-caption">
+            <h1>POOL SIDE VIEW</h1>
+          </div>
+    </div>
+      
+    </div>
+
+  </div>
+            <div class="row" id="r1">
+                <div class="col-md-4"><h4>HISTORY</h4>
+                    <img src="./Images/5.jpg" width="200px" height="100px">
+                    <p style="color:blue">The history of Mumbai and The Taj Mahal Palace, the city’s first harbour landmark, are dramatically intertwined.</p><p> For over a century, this luxury hotel has been the residence of choice for maharajas, dignitaries and other famous personalities.</p>
+                </div>
+                <div class="col-md-4"><h4>KIDS@TAJ</h4>
+                    <p style="color:blue">Kids receive our trademark activity passport on arrival, and embark on an exciting journey as they engage in bespoke creatively stimulating activities.</p><p> A full passport is the perfect memento to take home, with new hobbies and happy memories.</p>
+                    <ul>
+                        <li> <i style="font-size:12px" class="fa">&#xf054;</i>Rooms & Suites</li>
+                        <li> <i style="font-size:12px" class="fa">&#xf054;</i>Dining</li>
+                        <li> <i style="font-size:12px" class="fa">&#xf054;</i>Meetings & Events</li>
+                        <li> <i style="font-size:12px" class="fa">&#xf054;</i>Awards</li>
+                        <li> <i style="font-size:12px" class="fa">&#xf054;</i>Promotions</li>
+                    </ul>
+                </div><h4>FACILITIES</h4>
+                
+                <div  class="col-md-4">
+                    <div class="row 1">
+               
+                    <div class="col-md-2">
+                        <img src="./Images/9.jpg" width="65px" height="65px">
+                    </div>
+                    <div class="col-md-10">
+                        <p>Join us for an insightful and entertaining walk around the heritage hotel.</p>
+                           </div> 
+                        </div>
+                    <div class="row 2">
+                         <div class="col-md-2">
+                        <img src="./Images/10.jpg" width="65px" height="65px">
+                    </div>
+                    <div class="col-md-10">
+                        <p> Our butlers keep you enthralled with its rich and varied stories, and anecdotes of yesteryears’ guests.</p>
+                           </div> 
+                    </div>
+                    <div class="row 3">
+                         <div class="col-md-2">
+                        <img src="./Images/11.jpg" width="65px" height="65px">
+                    </div>
+                    <div class="col-md-10">
+                        <p>Watch history come alive.</p>
+                           </div> 
+                    </div>
+                    </div>
+                </div>
+            <div class="row" id="r2">
+                <h3>MORE INFO ABOUT HOTELS</h3>
+                <div class="col-md-4">
+                    <img src="./Images/6.jpg" width="300px" height="150px" style="padding-bottom:15px">
+                    <p>Spanning world-renowned landmarks, modern business hotels, idyllic beach resorts, authentic Rajput palaces and rustic safari lodges, each Taj hotel reinterprets the tradition of hospitality in a refreshingly modern way to create unique experiences and lifelong memories.</p>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">More Info</button>
+
+                    <!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">RAJPUT PALACE</h4>
+                        </div>
+                        <div class="modal-body">
+                        <p>Shows all the rajput palaces around.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <img src="./Images/7.jpg" width="300px" height="150px" style="padding-bottom:15px">
+                    <p>Work hard and play hard. Relax and energize. Ideate and confer. Evolve and transform. Revel in a spirit that presents the normal with an unexpected twist. Stylish and sophisticated, Vivanta by Taj delivers experiences with imagination, energy and efficiency.</p>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">More Info</button>
+
+                    <!-- Modal -->
+                    <div id="myModal1" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">ENTERTAINMENT</h4>
+                        </div>
+                        <div class="modal-body">
+                        <p>Shows all the play and fun areas around.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <img src="./Images/8.jpg" width="300px" height="150px" style="padding-bottom:15px">
+                    <p>The Gateway Hotels and Resorts are designed for the modern traveller. Which is why we have a 24X7 attitude across services like dining and fitness. So when you feel like a quick bite at 1 am or a heart pumping jog at 4 am, we’ve got you covered</p>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">More Info</button>
+
+                    <!-- Modal -->
+                    <div id="myModal2" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">RESORTS</h4>
+                        </div>
+                        <div class="modal-body">
+                        <p>Shows all the holiday resorts around.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row" id="r3">
+                <div class="col-md-4" id="r3_1">
+                <i class="material-icons" style="font-size:36px;color:orange;float:left" onclick="getLocation()">&#xe55f;</i>
+                   <div> <p>707 Rivendell Way</p>
+                    <p>Edison-08817</p>
+                       </div>
+                    <div id="map"></div>
+                    </div>
+                <div class="col-md-4">
+                    <i class="material-icons" style="font-size:36px;color:orange;float:left">&#xe0d4;</i>
+                    <div> <p>Telephone:+1(816)-(316)-0418</p>
+                        <p>Email:imsrujan27@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4" id="r3_3">
+                    <h5 style="margin-top:0px">FOLLOW US:</h5>
+                 <i class="fa fa-facebook-square" style="font-size:20px;color:orange"></i>
+                    <i class="fa fa-google-plus" style="font-size:20px;color:orange"></i>
+                    <i class="fa fa-linkedin-square" style="font-size:20px;color:orange"></i>
+                    <i class="fa fa-twitter" aria-hidden="true" style="font-size:20px;color:orange"></i>
+                </div>
+                <div id="r4">
+                    <i class="fa fa-arrow-circle-up" style="font-size:48px;color:orange;float:right"></i>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
